@@ -1,12 +1,15 @@
 # aDNAiterativeAsm
 Assembly of Hippopotamus aDNA using iterative mapping<br/>
 <br/>
-###Usage
+### Usage
 > iterativePE.sh [filename]*.fastq.gz<br/>
 <br/>
 might return:<br/>
 <br/>
-```[filename]<br/>
+
+```
+
+[filename]<br/>
 === Iteration 0 ===<br/>
 iterations/[filename]_0.fasta<br/>
 Settings:<br/>
@@ -202,8 +205,11 @@ Total time for backward call to driver() for mirror index: 00:00:00<br/>
 Mapped reads (after dedup): 10364<br/>
 No new reads mapped. Iteration converged. Stopping.<br/>
 ✅ Iteration complete. Final consensus: iterations/[filename]_3.fasta<br/>
-📄 Mapped reads log saved to: [filen]_reads_per_iteration.tsv<br/>```
-<br/>
+📄 Mapped reads log saved to: [filen]_reads_per_iteration.tsv<br/>
+
+```
+
+
 <br/>
 ###Information<br/>
 Three scripts comprising bash commands and the mapper bowtie2 to map reads iteratively to create a consensus sequence and samtools to create a consensus sequence.<br/><br/>
@@ -223,6 +229,6 @@ samtools > 1.7<br/>
 <br/>
 ### Author:<br/>
 Claudia Paetzold<br/>
-###Citation<br/>
+### Citation<br/>
 If you used these scripts, you might want to reference the corresponding journal article:<br/>
 <br/>
