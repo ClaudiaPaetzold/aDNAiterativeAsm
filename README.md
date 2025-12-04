@@ -6,7 +6,7 @@ Assembly of Hippopotamus aDNA using iterative mapping<br/>
 <br/>
 might return:<br/>
 <br/>
-`[filename]<br/>
+```[filename]<br/>
 === Iteration 0 ===<br/>
 iterations/[filename]_0.fasta<br/>
 Settings:<br/>
@@ -202,7 +202,7 @@ Total time for backward call to driver() for mirror index: 00:00:00<br/>
 Mapped reads (after dedup): 10364<br/>
 No new reads mapped. Iteration converged. Stopping.<br/>
 ✅ Iteration complete. Final consensus: iterations/[filename]_3.fasta<br/>
-📄 Mapped reads log saved to: [filen]_reads_per_iteration.tsv<br/>`
+📄 Mapped reads log saved to: [filen]_reads_per_iteration.tsv<br/>```
 <br/>
 <br/>
 ###Information<br/>
